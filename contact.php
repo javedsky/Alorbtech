@@ -21,7 +21,7 @@ $headers = 'From:'. $email . "rn"; // Sender's Email
 $headers = 'From: '.$email."\r\n".
 'Reply-To: '.$email."\r\n" .
 'X-Mailer: PHP/' . phpversion();
-mail("sriniarul444@gmail.com", "Visitor's message", $email_message, $headers);  
+mail("connect@alorbtech.com", "Visitor's message", $email_message, $headers);  
 print "Your mail has been sent successfuly ! Thank you for your feedback";
 }
 
