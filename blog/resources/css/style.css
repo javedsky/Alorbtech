@@ -1,0 +1,306 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html{
+	background-color: #EAEDEE;
+	color: #555;
+	font-family: 'Lato','Aerial',sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+}
+
+/*----------------------------------------*/
+/*---------REUSABLE CODE----------*/
+/*----------------------------------------*/
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+	
+}
+
+h2 {
+	margin-bottom: 30px;
+	font-weight: 700;
+	font-size: 120%;
+	margin-left: 10%;
+	text-transform: uppercase;
+}
+
+p {
+	font-weight: 300;
+	font-size: 80%;
+	margin: 0 10%;
+	word-spacing: 8px;
+	letter-spacing: 2px;
+}
+
+
+/*----------------------------------------*/
+/*---------NAVIGATION MENU----------*/
+/*----------------------------------------*/
+
+nav {
+	background-color: #000;
+}
+
+.logo {
+	height:120px;
+	width:auto;
+	float:left;
+	margin:0 20px;
+}
+
+
+.main-nav {
+	float:right;
+	list-style: none;
+	margin-top: 45px;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 40px;
+	
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+	padding:8px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 90%;
+	font-weight: 300;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+	border-bottom: 2px solid #e67e22;
+}
+
+
+/*----------------------------------------*/
+/*---------BLOG HEAD ----------*/
+/*----------------------------------------*/
+
+
+
+.background-image {
+	padding-top: 100px;
+	
+}
+
+.back-img {
+	height: 500px;
+	width: 100%;
+}
+
+.blog-head {
+	width: 80%;
+	height: 180px;
+	padding-top: 30px;
+	background-color: #fff;
+	transform: translate(0,-40%);
+	margin-left: 10%;
+	border-radius: 10px;
+}
+
+
+/*----------------------------------------*/
+/*---------BLOG SECTIONS ----------*/
+/*----------------------------------------*/
+
+
+.blogs{
+	border-radius: 5px;
+	margin:60px 80px;
+	height: 400px;
+	overflow: hidden;
+	background-color: #000;
+	box-shadow: 10px 20px 20px #bababa;
+}
+
+.blogs img {
+	height: 100%;
+	width: 100%;
+	opacity: 0.6;
+	transform: scale(1.15);
+	transition: opacity 0.5s,transform 0.5s;
+	
+}
+
+.blogs img:hover {
+	transform: scale(1.03);
+	opacity: 1;
+}
+
+
+.bolg-headings {
+	padding: 100px 0;
+}
+
+.blog-info {
+	margin:0;
+	height: 80px;
+	transform: translate(0,-100%);
+	
+}
+
+.blogs a{
+	text-decoration: none;
+	
+}
+
+.blogs h3{
+	padding: 3%;
+	color: #fff;
+	font-weight: 100;
+	font-weight: 300;
+}
+
+.info1{
+
+		background-color: #d35400 ;
+}
+
+.info2{
+		background-color: #2980b9;
+}
+
+.info3{
+		background-color: #8e44ad;
+}
+
+.info4{
+		background-color: #16a085;
+}
+
+.info5{
+		background-color: #f39c12;
+}
+
+.info6{
+		background-color: #16a085;
+}
+
+.info7{
+		background-color: #7f8c8d;
+}
+
+.info8{
+		background-color: #2c3e50;
+}
+
+
+/*----------------------------------------*/
+/*---------BLOG POP UP ----------*/
+/*----------------------------------------*/
+
+
+
+.modal {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+
+}
+
+.modal-content{
+	height: 65%;
+	width: auto;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 10;
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	border-top-left-radius: 2em;
+	display: none;
+}
+
+.modal-content h2{
+	margin:10% 10% 0;
+	font-size: 120%;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+
+.modal-content p{
+	margin: 10%;
+	letter-spacing: 2px;
+	font-size: 120%;
+	
+}
+
+.modal-content a:link,
+.modal-content a:visited {
+	text-decoration: none;
+}
+
+.modal-close {
+	color: #000;
+	font-size: 2em;
+	position: absolute;
+	top: 1px;
+	right: 10px;
+}
+
+#modal1:target ,
+#modal1:target .modal-content{
+	display: block;
+	position: fixed;
+}
+
+#modal2:target ,
+#modal2:target .modal-content{
+	display: block;
+	position: fixed;
+
+}
+
+#modal3:target ,
+#modal3:target .modal-content{
+	display: block;
+	position: fixed;
+}
+
+#modal4:target ,
+#modal4:target .modal-content{
+	display: block;
+	position: fixed;
+}
+
+#modal5:target ,
+#modal5:target .modal-content{
+	display: block;
+	position: fixed;
+}
+
+#modal6:target ,
+#modal6:target .modal-content{
+	display: block;
+	position: fixed;
+}
+
+#modal7:target ,
+#modal7:target .modal-content{
+	display: block;
+	position: fixed;
+}
+
+#modal8:target ,
+#modal8:target .modal-content{
+	display: block;
+	position: fixed;
+}
